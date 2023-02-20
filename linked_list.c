@@ -80,7 +80,6 @@ void swap(node* a, node* b)
 			a->next->prev = a;
 		if (a->prev != NULL)
 			a->prev->next = a;
-
 	}
 }
 
